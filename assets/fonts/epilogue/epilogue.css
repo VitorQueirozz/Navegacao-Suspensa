@@ -1,4 +1,18 @@
 @font-face {
     font-family: 'Epilogue';
     src: url('./Epilogue-Regular.ttf') format(woff2);
+
 }
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./Epilogue-Bold.ttf') format(woff2);
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./Epilogue-ExtraBold.ttf') format(woff2);
+}
+
+
+
