@@ -1,0 +1,92 @@
+:root {
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+}
+
+/*Modal do Features*/
+
+.features-modal {
+    position: absolute;
+    top: 45px;
+    left: 133px;
+    background-color: var(--AlmostWhite);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.151);
+    padding: 18px 25px;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.features-modal.ativo {
+    top: 75px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.features-modal ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features-modal li {
+    list-style-type: none;
+}
+
+.features-modal a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    text-align: start;
+    color: var(--MediumGray);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.features-modal a:hover {
+    color: var(--AlmostBlack);
+}
+
+/*Modal do Company*/
+
+.company-modal {
+    position: absolute;
+    top: 45px;
+    left: 305px;
+    background-color: var(--AlmostWhite);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.151);
+    padding: 18px 25px;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.company-modal.ativo {
+    top: 75px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.company-modal ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.company-modal li {
+    list-style-type: none;
+}
+
+.company-modal a {
+    text-decoration: none;
+    color: var(--MediumGray);
+    font-size: 14px;
+}
+
+.company-modal a:hover {
+    color: var(--AlmostBlack);
+}
